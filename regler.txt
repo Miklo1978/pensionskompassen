@@ -1,0 +1,7 @@
+✅ Behåll all befintlig funktionalitet
+✅ Behåll svensk språkversion
+✅ Utgå från senaste version
+✅ Ändra inte pensionsmotorn utan uttrycklig instruktion
+✅ Behåll hjälptexter och källhänvisningar
+✅ Full GitHub Pages-kompatibilitet
+Stega upp versionen efter varje kod generering

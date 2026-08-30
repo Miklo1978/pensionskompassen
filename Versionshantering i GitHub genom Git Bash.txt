@@ -1,0 +1,27 @@
+Versionshantering i GitHub genom programmet Git bash
+1)	Skriv i sökfältet i Windows Git bash för att starta programmet
+2)	git clone <address till Github repo> (hämta vilket projekt som helst)
+a.	Hoppa över det här steget om du redan har läst in projektet tidigare
+3)	Gå till mappen där projektet finns: 
+cd C:/Users/myoack/Desktop/Legends/pensionskompassen
+4)	git add . (adds all files in the folder to the repository, but not committed)
+a.	git add . lägger till alla filer annar git add ”filnamnet”
+5)	git status (show the status of the files)
+6)	git commit -m "V.26 of the code" (Det som är inom fnuttarna är ändringstexten, tex en ny version )
+7)	git remote (will list all the remote repositories, tex origin)
+8)	git push -u origin master
+
+
+ ------------
+
+git init (starta projektet från scratch)
+git rm --cached <file name> (remove a file from repository)
+Branching:
+git branch <name of the branch> (Create a branch)
+git checkout <branch name> (Switch to a specific branch)
+If you want to merge another branch into the master branch (Main branch), you need to stand in the master branch, then type:
+git merge <name of the branch> (Merge the other branch into main branch)
+remote repository:
+git remote add <add a Name> <add link to GitHub repo>
+ 
+
